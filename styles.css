@@ -12,26 +12,18 @@ html, body {
     height: 10%;
  }
 
- #main {
-    display: block;
-    background: #CFF;
-    height:90%;
-    width:100%;
-    padding: 60px;
-    padding-left: 120px;
-    box-sizing: border-box;
-}
+
 
 ul {
     
     list-style: none;
-
     text-decoration: none;
     text-align: center;
     display: block;
     padding: 0;
-    
 }
+
+
 
 ul li {
     display: inline-block;
@@ -41,7 +33,17 @@ ul li {
     text-align: center;
     line-height: 50px; 
     min-width: 90px;  
+    
+}
 
+#main {
+    display: block;
+    background: #CFF;
+    height:90%;
+    width:100%;
+    padding: 60px;
+    padding-left: 120px;
+    box-sizing: border-box;
 }
 
 #txt {
